@@ -1,0 +1,1771 @@
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  font-size: 100%;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+audio,
+canvas,
+video {
+  display: block;
+}
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+b, strong {
+  font-weight: bold;
+}
+input,
+textarea,
+button,
+select {
+  margin: 0;
+  font-size: 100%;
+  line-height: normal;
+  vertical-align: baseline;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+input[type="checkbox"], input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+textarea {
+  overflow: auto;
+}
+
+
+figure {
+  position: relative;
+}
+figure img,
+figure object,
+figure embed,
+figure video {
+  max-width: 100%;
+  display: block;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+body {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+.small {
+  /* 13px / 18px */
+
+  font-size: 0.8125em;
+  line-height: 1.3846153846153846em;
+}
+.normal, h3 {
+  /* 16px / 24px */
+
+  font-size: 1em;
+  line-height: 1.5em;
+  /* 24 */
+
+}
+.large, h2, h1 {
+  /* 26 / 36px */
+
+  font-size: 1.625em;
+  line-height: 1.3846153846153846em;
+}
+.huge {
+  /* 42px / 48px */
+
+  font-size: 2.625em;
+  line-height: 1.1428571428571428em;
+}
+.massive {
+  /* 68px / 72px */
+
+  font-size: 4.25em;
+  line-height: 1.0588235294117647em;
+}
+.gigantic {
+  /* 110px / 120px */
+
+  font-size: 6.875em;
+  line-height: 1.0909090909090908em;
+}
+/*
+*
+*  Four-column grid active
+*  ----------------------------------------
+*  Margin   | #  1   2   3   4   |   Margin
+*  5.55555% | %  25  50  75  100 | 5.55555%
+*
+*/
+header, #twoway {
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+.wrapper {
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*/
+.ie body {
+  width: 40em;
+  font-size: 1.0625em;
+}
+.ie h1 {
+  /* 42px / 48px */
+
+  font-size: 2.625em;
+  line-height: 1.1428571428571428em;
+}
+
+
+@media screen and (max-width: 10em) {
+header h1 {
+  font-size:1em;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+ul#nav {
+width:100%;
+}
+
+ul#nav li a{
+  font-size:0.9em;
+  padding:6px;
+  width:90%;
+}
+
+ul#nav li a.active {
+  border-left:3px solid #23abf1;
+}
+
+#tagline h2 {
+  position : relative;
+  top:6px;
+  font-size: 20px;
+}
+
+#tagline h1 {
+  position: relative;
+  padding-bottom: 25px;
+  font-size: 30px;
+}
+
+  #content,  #aboutcontent {
+    width:80%;
+    margin-top:-40px;
+    padding:10px ;
+  }
+
+  #content #matrixecomm img,  #aboutcontent img, #aboutcontent iframe {
+    width:100%;
+  }
+
+  #content #matrixecomm p,  #aboutcontent p {
+    width:100%;
+    padding-bottom:30px;
+    text-align:left;
+    font-size: 0.75em;
+    line-height: 1.1em;
+  }
+
+  #content a,  #aboutcontent a {
+    text-decoration: none;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   color: #23abf1;
+  }  
+
+  #content a:hover,  #aboutcontent a:hover {
+    color: #4686bc;
+  }
+
+  #content #matrixecomm p span#button a{
+    position:relative;
+    top:10px;
+    padding:6px;
+    background :#23abf1;
+    color: #fff;
+    cursor:pointer;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   border-radius: 4px;
+  }
+
+  #content #matrixecomm p span#button a:hover {
+    background:#4686bc;
+  }
+
+  #content article#twoway section.wrapper h3 {
+    font-family: Titillium Web;
+    font-size: 0.95em;
+  }
+
+    #content article#twoway section.wrapper p {
+    font-size: 0.75em;
+    line-height: 1.1em;
+  }
+
+  #content article#twoway section.wrapper img {
+    width:1em;
+    height:1em;
+    float:left;
+    padding-right : 3px;
+  }
+
+    footer p {
+  font-size: 0.7em;
+  padding:3px 0 0 0;
+  line-height: 1.4em;
+}
+
+footer p img {
+  top:2px;
+  width:1em;
+  position: relative;
+  padding-left: 2px;
+}
+
+
+#dabba h2 {
+  font-size:1.2em;
+}
+
+}
+
+/* @media screen and (min-width: 160px) */
+@media screen and (min-width: 10em) {
+
+header {
+  padding-top: 4px;
+}
+
+
+form {
+  margin: 10px 0;
+}
+
+form p{
+    padding:4px;
+}
+
+
+form input[type="text"] {
+  -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+height: 30px;
+padding: 0 10px;
+width:80%;
+}
+
+form textarea{
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 10px;
+width: 90%;
+}
+
+
+header h1 {
+  font-size: 1.2em;
+  padding-bottom:7px;
+  text-align:center;
+}
+
+ul#nav {
+width:100%;
+}
+
+ul#nav li a{
+  font-size:1em;
+  padding:6px;
+  width:90%;
+}
+
+ul#nav li a.active {
+  border-left:3px solid #23abf1;
+}
+
+#tagline h2 {
+  position : relative;
+  top:10px;
+  font-size: 22px;
+}
+
+#tagline h1 {
+  position: relative;
+  padding-bottom: 25px;
+  font-size: 35px;
+}
+
+   #content,  #aboutcontent {
+    width:80%;
+    margin-top:-40px;
+    padding:10px ;
+  }
+
+  #content #matrixecomm img,  #aboutcontent img, #aboutcontent iframe  {
+    width:100%;
+  }
+
+  #content #matrixecomm p,  #aboutcontent p {
+    width:100%;
+    padding-bottom:30px;
+    text-align:left;
+    font-size: 0.75em;
+    line-height: 1.1em;
+  }
+
+  #content a,  #aboutcontent a {
+    text-decoration: none;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   color: #23abf1;
+  }  
+
+  #content a:hover,  #aboutcontent a:hover {
+    color: #4686bc;
+  }
+
+  #content #matrixecomm p span#button a{
+    position:relative;
+    top:10px;
+    padding:6px;
+    background :#23abf1;
+    color: #fff;
+    cursor:pointer;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   border-radius: 4px;
+  }
+
+  #content #matrixecomm p span#button a:hover {
+    background:#4686bc;
+  }
+
+  #content article#twoway section.wrapper h3 {
+    font-family: Titillium Web;
+    font-size: 0.95em;
+  }
+
+    #content article#twoway section.wrapper p {
+    font-size: 0.75em;
+    line-height: 1.1em;
+  }
+
+  #content article#twoway section.wrapper img {
+    width:1em;
+    height:1em;
+    float:left;
+    padding-right : 3px;
+  }
+
+    footer p {
+  font-size: 0.75em;
+  padding:3px 0 0 0;
+  line-height: 1.4em;
+}
+
+footer p img {
+  top:2px;
+  width:1em;
+  position: relative;
+    padding-left: 3.3px;
+}
+
+    #medetails {
+    width:90%;
+    margin-top:-40px;
+    padding:10px ;
+  }
+
+}
+
+/* @media screen and (max-width: 240px) */
+@media screen and (min-width: 15em) {
+
+      #medetails {
+    width:90%;
+    margin-top:-40px;
+    padding:10px ;
+  }
+
+header {
+  padding-top: 4px;
+}
+
+header h1 {
+  font-size: 1.7em;
+  padding-bottom:7px;
+}
+
+ul#nav {
+  float:left;
+  width:100%;
+}
+
+ul#nav li a{
+  font-size:1em;
+  padding:6px;
+  width:90%;
+}
+
+ul#nav li a.active {
+  border-left:3px solid #23abf1;
+}
+
+#tagline h2 {
+  position : relative;
+  top:10px;
+  font-size: 27px;
+}
+
+#tagline h1 {
+  position: relative;
+  padding-bottom: 25px;
+  font-size: 45px;
+}
+
+  #content,  #aboutcontent {
+    width:80%;
+    margin-top:-40px;
+    padding:10px ;
+  }
+
+  #content #matrixecomm img,  #aboutcontent img {
+    width:100%;
+  }
+
+    #aboutcontent iframe  {
+    width:98%;
+    margin-left:1%;
+    height:35%;
+  }
+
+  #content #matrixecomm p,  #aboutcontent p {
+    width:100%;
+    padding-bottom:30px;
+    text-align:left;
+    font-size: 0.75em;
+    line-height: 1.1em;
+  }
+
+  #content a,  #aboutcontent a {
+    text-decoration: none;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   color: #23abf1;
+  }  
+
+  #content a:hover,  #aboutcontent a:hover {
+    color: #4686bc;
+  }
+
+  #content #matrixecomm p span#button a{
+    position:relative;
+    top:10px;
+    padding:6px;
+    background :#23abf1;
+    color: #fff;
+    cursor:pointer;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   border-radius: 4px;
+  }
+
+  #content #matrixecomm p span#button a:hover {
+    background:#4686bc;
+  }
+
+  #content article#twoway section.wrapper h3 {
+    font-family: Titillium Web;
+    font-size: 0.95em;
+  }
+
+    #content article#twoway section.wrapper p {
+    font-size: 0.75em;
+    line-height: 1.1em;
+  }
+
+  #content article#twoway section.wrapper img {
+    width:1em;
+    height:1em;
+    float:left;
+    padding-right : 3px;
+  }
+
+    footer p {
+  font-size: 0.8em;
+  padding:3px 0 0 0;
+  line-height: 1.4em;
+}
+
+footer p img {
+  top:2px;
+  width:1em;
+  position: relative;
+    padding-left: 4px;
+}
+
+form {
+  margin: 10px 0;
+}
+
+form p{
+    padding:4px;
+}
+
+form input[type="text"] {
+  -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+height: 30px;
+padding: 0 10px;
+width:85%px;
+}
+
+form textarea{
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 10px;
+width: 95%;
+}
+
+
+  }
+
+/* @media screen and (min-width: 320px) */
+@media screen and (min-width: 20em) {
+
+  header {
+  padding-top: 6px;
+}
+
+
+
+header h1 {
+  font-size: 2.2em;
+  padding-bottom:7px;
+}
+
+ul#nav {
+  float:left;
+  width:100%;
+}
+
+ul#nav li a{
+  font-size:1em;
+  padding:6px;
+  width:90%;
+}
+
+ul#nav li a.active {
+  border-left:3px solid #23abf1;
+}
+
+#tagline h2 {
+  position : relative;
+  top:20px;
+  font-size: 40px;
+}
+
+#tagline h1 {
+  position: relative;
+  top:3px;
+  padding-bottom: 25px;
+  font-size: 60px;
+}
+
+   #content,  #aboutcontent {
+    width:80%;
+    margin-top:-40px;
+    padding:10px ;
+  }
+
+  #content #matrixecomm img,  #aboutcontent img {
+    width:100%;
+  }
+
+    #aboutcontent iframe  {
+    width:98%;
+    margin-left:1%;
+    height:45%;
+  }
+
+  #content #matrixecomm p,  #aboutcontent p {
+    width:100%;
+    padding-bottom:30px;
+    text-align:left;
+    font-size: 0.85em;
+    line-height: 1.3em;
+  }
+
+  #content a,  #aboutcontent a {
+    text-decoration: none;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   color: #23abf1;
+  }  
+
+  #content a:hover,  #aboutcontent a:hover {
+    color: #4686bc;
+  }
+
+  #content #matrixecomm p span#button a{
+    position:relative;
+    top:10px;
+    padding:6px;
+    background :#23abf1;
+    color: #fff;
+    cursor:pointer;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   border-radius: 4px;
+  }
+
+  #content #matrixecomm p span#button a:hover {
+    background:#4686bc;
+  }
+
+  #content article#twoway section.wrapper h3 {
+    font-family: Titillium Web;
+    font-size: 1.1em;
+  }
+
+    #content article#twoway section.wrapper p {
+    font-size: 0.85em;
+    line-height: 1.2em;
+  }
+
+  #content article#twoway section.wrapper img {
+    width:1.4em;
+    height:1.4em;
+    float:left;
+    padding-right : 3px;
+  }
+
+  footer p {
+  font-size: 0.87em;
+  padding:0;
+  line-height: 1.4em;
+  padding-left: 10px;
+}
+
+footer p img {
+  top:2px;
+  width:1em;
+  position: relative;
+}
+
+    #medetails {
+    width:90%;
+    margin-top:-40px;
+    padding:10px ;
+  }
+  }
+
+
+/* @media screen and (min-width: 480px) */
+@media screen and (min-width: 30em) {
+
+header h1 {
+  font-size: 3em;
+  padding-bottom:7px; 
+}
+#dabba {
+  top:-10%;
+  padding:20px;
+  
+}
+
+form {
+  margin: 10px 0;
+}
+
+form p#name {
+    float:left;
+    padding-right:4%;
+}
+
+form input[type="text"] {
+  -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+height: 30px;
+padding: 0 10px;
+width:140px;
+}
+
+form textarea{
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 10px;
+width: 320px;
+}
+
+    #medetails {
+    width:92%;
+    margin-top:-40px;
+    padding:10px ;
+  }
+
+
+  }
+
+
+/* @media screen and (min-width: 540px) */
+@media screen and (min-width: 33.75em) {
+
+  header {
+  padding-top: 6px;
+    background: url(../bg/subtle_carbon.png);
+}
+
+header h1 {
+  font-size: 3em;
+  padding-bottom:7px; 
+}
+
+ul#nav {
+  margin:0 auto;
+  text-align:center;
+}
+  
+ul#nav li {
+  display:inline-block;
+  padding:3px;
+}
+
+ul#nav li a{
+  padding: 10px;
+}
+
+
+ul#nav li a.active {
+  border-left: none;
+  border-top: 8px solid #23abf1;
+}
+
+   #content,  #aboutcontent {
+    width:85%;
+    margin-top:-40px;
+    padding:10px ;
+    clear:both;
+  }
+
+  #content #matrixecomm img,  #aboutcontent img{
+    width:80%;
+    margin-left:10%;
+  }
+
+    #aboutcontent iframe  {
+    width:88%;
+    margin-left:6%;
+    height:50%;
+  }
+
+  #content #matrixecomm p, #aboutcontent p {
+    width:90%;
+    margin-left: 5%;
+    padding-bottom:40px;
+    text-align:center;
+    font-size: 1em;
+    line-height: 1.45em;
+  }
+
+  #content a,  #aboutcontent a {
+    text-decoration: none;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   color: #23abf1;
+  }  
+
+  #content a:hover,  #aboutcontent a:hover {
+    color: #4686bc;
+  }
+
+  #content #matrixecomm p span#button a{
+    position:relative;
+    top:10px;
+    padding:6px;
+    background :#23abf1;
+    color: #fff;
+    cursor:pointer;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   border-radius: 4px;
+  }
+
+  #content #matrixecomm p span#button a:hover {
+    background:#4686bc;
+  }
+
+  #content article#twoway section.wrapper h3 {
+    font-family: Titillium Web;
+    font-size: 1.2em;
+  }
+
+    #content article#twoway section.wrapper p {
+    font-size: 1em;
+    line-height: 1.2em;
+    padding-bottom: 5px;
+  }
+
+  #content article#twoway section.wrapper img {
+    width:1.4em;
+    height:1.4em;
+    float:left;
+    padding-right : 3px;
+  }
+
+    #medetails {
+    width:92%;
+    margin-top:-40px;
+    padding:10px ;
+  }
+  }
+
+/* @media screen and (min-width: 640px) */
+@media screen and (min-width: 40em) {
+  body {
+    /* Zoom baseline grid to 17/16 = 1.0625 */
+  
+    font-size: 1.0625em;
+  }
+
+  h1 {
+    /* 42px / 48px */
+  
+    font-size: 2.625em;
+    line-height: 1.1428571428571428em;
+
+
+ 
+  }
+
+#tagline h2 {
+  position : relative;
+  top:20px;
+}
+
+#tagline h1 {
+  position: relative;
+  top:3px;
+  padding-bottom: 25px;
+}
+
+
+   #content,  #aboutcontent {
+    width:85%;
+    margin-top:-40px;
+    padding:10px ;
+  }
+
+  #content #matrixecomm img,  #aboutcontent img{
+    width:80%;
+    margin-left:10%;
+  }
+
+  #aboutcontent iframe  {
+    width:88%;
+    margin-left:6%;
+    height:55%;
+  }
+
+
+  #content #matrixecomm p,  #aboutcontent p {
+    width:90%;
+    margin-left: 5%;
+    padding-bottom:40px;
+    text-align:center;
+    font-size: 1em;
+    line-height: 1.45em;
+  }
+
+  #content a,  #aboutcontent a {
+    text-decoration: none;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   color: #23abf1;
+  }  
+
+  #content a:hover,  #aboutcontent a:hover {
+    color: #4686bc;
+  }
+
+  #content #matrixecomm p span#button a{
+    position:relative;
+    top:10px;
+    padding:6px;
+    background :#23abf1;
+    color: #fff;
+    cursor:pointer;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   border-radius: 4px;
+  }
+
+  #content #matrixecomm p span#button a:hover {
+    background:#4686bc;
+  }
+
+  #content article#twoway section.wrapper h3 {
+    font-family: Titillium Web;
+    font-size: 1.2em;
+  }
+
+    #content article#twoway section.wrapper p {
+    font-size: 1em;
+    line-height: 1.2em;
+    padding-bottom: 5px;
+  }
+
+  #content article#twoway section.wrapper img {
+    width:1.4em;
+    height:1.4em;
+    float:left;
+    padding-right : 3px;
+  }
+
+  footer p {
+  font-size: 0.9em;
+  padding:0;
+  line-height: 1.4em;
+  padding-left: 10px;
+}
+
+footer p img {
+  top:2px;
+  width:1em;
+  position: relative;
+}
+
+    #medetails {
+    width:92%;
+    margin-top:-40px;
+    padding:10px ;
+  }
+
+}
+/*
+*
+*  Eight-column grid active
+*  ----------------------------------------------------------------------
+*  Margin   | #  1     2     3     4     5     6     7     8   |   Margin
+*  5.55555% | %  12.5  25.0  37.5  50.0  62.5  75.0  87.5  100 | 5.55555%
+*	
+*
+*/
+/* @media screen and (min-width: 720px) */
+@media screen and (min-width: 45em) {
+  body {
+    /* Reset baseline grid to 16/16 = 1 */
+  
+    font-size: 1em;
+  }
+
+  #twoway .wrapper {
+    float: left;
+    width: 50%;
+  }
+
+header h1 {
+  font-size: 3.3em;
+  padding-bottom:7px;
+}
+
+  
+  .homecontent {
+    height:380px;
+  }
+
+#tagline {
+  width:100%;
+  padding:15px 0 55px 0;
+  text-align: center;
+}
+
+#tagline h1 {
+  font-size:70px  ;
+}
+
+#tagline h2 {
+  font-size:45px;
+}
+
+   #content {
+    width:85%;
+    margin-top:-40px;
+    padding:10px ;
+
+  }
+
+  #content #matrixecomm img{
+    width:40%;
+    float:left;
+    margin-left:5px;
+    margin-bottom:15px;
+  }
+
+
+
+
+  #content #matrixecomm p{
+    width:57%;
+    float:left;
+    text-align: left;
+    margin-left: 10px;
+    padding-bottom:40px;
+    font-size: 0.9em;
+    line-height: 1.25em;
+    margin-top: 4%;
+  }
+
+ #aboutcontent {
+    width:85%;
+    margin-top:-40px;
+    padding:10px ;
+    height:240px;
+  }
+
+ #aboutcontent img{
+    width:55%;
+    float:left;
+    margin-left:5px;
+    margin-bottom:15px;
+  }
+
+    #aboutcontent iframe  {
+    width:55%;
+    float:left;
+    margin:0 0 1% 5px;
+    height:98%;
+  }
+
+   #aboutcontent p {
+    width:42%;
+    float:left;
+    text-align: left;
+    margin-left: 10px;
+    padding-bottom:40px;
+    font-size: 0.95em;
+    line-height: 1.25em;
+    margin-top: 2%;
+  }
+
+  #content a {
+    text-decoration: none;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   color: #23abf1;
+  }  
+
+  #content a:hover {
+    color: #4686bc;
+  }
+
+  #content #matrixecomm p span#button a{
+    position:relative;
+    top:10px;
+    padding:6px;
+    background :#23abf1;
+    color: #fff;
+    cursor:pointer;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   border-radius: 4px;
+  }
+
+  #content #matrixecomm p span#button a:hover {
+    background:#4686bc;
+  }
+
+  #content article#twoway section.wrapper h3 {
+    font-family: Titillium Web;
+    font-size: 1.1em;
+  }
+
+    #content article#twoway section.wrapper p {
+    font-size: 0.9em;
+    line-height: 1.25em;
+    padding-bottom: 5px;
+  }
+
+  #content article#twoway section.wrapper img {
+    width:1.3em;
+    height:1.3em;
+    float:left;
+    padding-right : 3px;
+  }
+
+footer p {
+  font-size: 0.9em;
+  padding:2px;
+  padding-left: 10px;
+}
+
+footer p img {
+  top:3.5px;
+  width:1em;
+  position: relative;
+}
+
+    #medetails {
+    width:90%;
+    margin-top:-50px;
+    padding:10px ;
+  }
+
+}
+/* @media screen and (min-width: 888px) */
+@media screen and (min-width: 55.5em) {
+  body {
+    /* Zoom baseline grid to 17/16 = 1.0625 */
+  
+    font-size: 1.0625em;
+  }
+
+
+
+#tagline h2 {
+  position : relative;
+  top:30px;
+}
+
+#tagline h1 {
+  position: relative;
+  top:13px;
+  padding-bottom: 25px;
+}
+
+   #content {
+    width:85%;
+    margin-top:-40px;
+    padding:10px ;
+  }
+
+  .homecontent {
+    height:410px;
+  }
+
+  #content #matrixecomm img {
+    width:40%;
+    float:left;
+    margin-left:5px;
+    margin-bottom:15px;
+  }
+
+  #content #matrixecomm p {
+    width:57%;
+    float:left;
+    text-align: left;
+    margin-left: 10px;
+    padding-bottom:40px;
+    font-size: 0.9em;
+    line-height: 1.25em;
+    margin-top: 4%;
+  }
+
+  #content a {
+    text-decoration: none;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   color: #23abf1;
+  }  
+
+  #content a:hover {
+    color: #4686bc;
+  }
+
+  #content #matrixecomm p span#button a{
+    position:relative;
+    top:10px;
+    padding:6px;
+    background :#23abf1;
+    color: #fff;
+    cursor:pointer;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   border-radius: 4px;
+  }
+
+  #content #matrixecomm p span#button a:hover {
+    background:#4686bc;
+  }
+
+  #content article#twoway section.wrapper h3 {
+    font-family: Titillium Web;
+    font-size: 1.1em;
+  }
+
+    #content article#twoway section.wrapper p {
+    font-size: 0.9em;
+    line-height: 1.25em;
+    padding-bottom: 5px;
+  }
+
+  #content article#twoway section.wrapper img {
+    width:1.3em;
+    height:1.3em;
+    float:left;
+    padding-right : 3px;
+  }
+
+  #aboutcontent {
+    width:85%;
+    margin-top:-40px;
+    padding:10px ;
+    height:270px;
+  }
+
+ #aboutcontent  img, #aboutcontent iframe  {
+    width:55%;
+    float:left;
+    margin-left:5px;
+    margin-bottom:15px;
+  }
+
+   #aboutcontent p {
+    width:42%;
+    float:left;
+    text-align: left;
+    margin-left: 10px;
+    padding-bottom:40px;
+    font-size: 1.05em;
+    line-height: 1.25em;
+    margin-top: 2%;
+  }
+
+
+    #medetails {
+    width:90%;
+    margin-top:-50px;
+    padding:10px ;
+  }
+
+}
+/* @media screen and (min-width: 984px) */
+@media screen and (min-width: 61.5em) {
+  body {
+    /* Reset baseline grid to 16/16 = 1.0 */
+  
+    font-size: 1em;
+  }
+  header, #twoway {
+    margin: 0 auto;
+  }
+
+header {
+  height:100px;
+}
+header h1 {
+  float:left;
+  padding-left: 10px;
+  padding-bottom: 0;
+}
+
+ul#nav {
+  text-align:right;
+  float:right;
+  margin:-69px 20px 0 0;
+}
+
+ul#nav li a{
+      text-align:center;
+  padding:25px 15px;
+}
+
+
+
+ul#nav li a.active {
+  border-top:8px solid #23abf1;
+}
+
+#tagline {
+  width:100%;
+  padding:20px 0 70px 0;
+  background: url(../bg/subtle_carbon.png);
+  text-align: center;
+}
+
+#tagline h1 {
+  font-size:90px  ;
+  position: relative;
+  top:-20px;
+}
+
+
+#tagline h2 {
+  font-size:60px;
+  top:0;
+}
+
+
+    #content {
+    width:85%;
+    margin-top:-80px;
+    padding:10px ;
+    height:520px;
+  }
+
+  #content #matrixecomm img {
+    width:40%;
+    float:left;
+    margin-left:5px;
+    margin-bottom:15px;
+    padding:10px;
+  }
+
+  #content #matrixecomm p {
+    width:50%;
+    float:left;
+    text-align: left;
+    margin-left: 10px;
+    padding-bottom:40px;
+    font-size: 1.1em;
+    line-height: 1.35em;
+    margin-top: 5%;
+  }
+
+  #content a {
+    text-decoration: none;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   color: #23abf1;
+  }  
+
+  #content a:hover {
+    color: #4686bc;
+  }
+
+  #content #matrixecomm p span#button a{
+    position:relative;
+    top:10px;
+    padding:8px;
+    background :#23abf1;
+    color: #fff;
+    cursor:pointer;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   border-radius: 4px;
+  }
+
+  #content #matrixecomm p span#button a:hover {
+    background:#4686bc;
+  }
+
+  #content article#twoway section.wrapper h3 {
+    font-family: Titillium Web;
+    font-size: 1.2em;
+  }
+
+    #content article#twoway section.wrapper p {
+    font-size: 1em;
+    line-height: 1.35em;
+    padding-bottom: 5px;
+  }
+
+  #content article#twoway section.wrapper img {
+    width:1.5em;
+    height:1.5em;
+    float:left;
+    padding-right : 3px;
+  }
+
+    #aboutcontent {
+    width:85%;
+    margin-top:-80px;
+    padding:10px ;
+    height:325px;
+  }
+
+ #aboutcontent  img{
+    width:55%;
+    float:left;
+    margin-left:5px;
+    margin-bottom:15px;
+  }
+
+  #aboutcontent iframe  {
+    width:55%;
+    float:left;
+    margin:0 0 1% 5px;
+    height:98%;
+  }
+
+   #aboutcontent p {
+    width:42%;
+    float:left;
+    text-align: left;
+    margin-left: 15px;
+    padding-bottom:40px;
+    font-size: 1.15em;
+    line-height: 1.25em;
+    margin-top: 5%;
+  }
+
+footer p {
+  font-size: 0.9em;
+  padding:2px;
+  padding-left: 10px;
+}
+
+footer p img {
+  top:3.5px;
+  width:1em;
+  position: relative;
+}
+
+#dabba {
+  padding:20px;
+  width:21em;
+  left:1.5%; 
+  top:-65%;
+}
+
+form {
+  margin: 10px 0;
+}
+
+form p#name {
+    padding-right:4%;
+}
+
+form input[type="text"] {
+  -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+height: 30px;
+padding: 0 10px;
+width:140px;
+}
+
+form textarea{
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 10px;
+width: 320px;
+}
+
+    #medetails {
+    width:85%;
+    margin-top:-80px;
+    padding:10px ;
+  }
+
+
+
+}
+/* @media screen and (min-width: 1200px) */
+@media screen and (min-width: 75em) {
+  body {
+    /* Zoom baseline grid to 17/16 = 1.0625 */
+  
+    font-size: 1.0625em;
+  }
+
+header {
+  height:100px;
+}
+header h1 {
+  float:left;
+  padding-left: 15px
+}
+
+ul#nav {
+  float: right;
+  margin:-75px 50px 0 0;
+}
+
+ul#nav li a{
+  display:block;
+  height:100%;
+    text-align:center;
+  padding:25px 20px;
+}
+
+
+
+ul#nav li a.active {
+  border-top:8px solid #23abf1;
+}
+
+  #tagline h1 {
+  top:-20px;
+  position:relative;
+}
+
+    #medetails {
+    width:85%;
+    margin-top:-80px;
+    padding:10px ;
+  }
+
+    #aboutcontent {
+    width:85%;
+    margin-top:-80px;
+    padding:10px ;
+    height:370px;
+  }
+
+ #aboutcontent img{
+    width:55%;
+    float:left;
+    margin-left:5px;
+    margin-bottom:15px;
+  }
+
+  #aboutcontent iframe  {
+    width:55%;
+    float:left;
+    margin:0 0 1% 5px;
+    height:98%;
+  }
+
+   #aboutcontent p {
+    width:42%;
+    float:left;
+    text-align: left;
+    margin-left: 15px;
+    padding-bottom:40px;
+    font-size: 1.2em;
+    line-height: 1.25em;
+    margin-top: 5%;
+  }
+
+
+footer p#one {
+  font-size: 0.9em;
+  padding:2.5px;
+  padding-left: 10px;
+}
+
+footer p img {
+  width:1.1em;
+  position: relative;
+  padding-left: 4px;
+}
+
+#dabba {
+  padding:20px;
+  width:24em;
+  left:1.5%; 
+  top:-65%;
+}
+
+form {
+  margin: 10px 0;
+}
+
+form p#name {
+    padding-right:4%;
+}
+
+form input[type="text"] {
+  -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+height: 30px;
+padding: 0 10px;
+width:170px;
+}
+
+form textarea{
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 10px;
+width: 380px;
+}
+
+  #medetails h1 {
+    margin: 40px 0 10px 0;
+  }
+
+  #medetails table td, #medetails table th{
+    padding:3px;
+  }
+
+  #medetails h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+  }
+
+ul#genrules {
+  position: relative;
+  left:30px;
+}
+
+#medetails span {
+  font-size: 1.6em;
+}
+
+#medetails #symposium  {
+  margin-top: 30px;
+}
+
+#medetails ul{
+  position: relative;
+  left: 30px;
+}
+
+}
+/* @media screen and (min-width: 1392px) */
+@media screen and (min-width: 87em) {
+  body {
+    /* Reset baseline grid to 16/16 = 1.0 */
+  
+    font-size: 1em;
+  }
+
+}
+/* @media screen and (min-width: 1680px) */
+@media screen and (min-width: 105em) {
+  body {
+    /* Zoom baseline grid to 17/16 = 1.0625 */
+  
+    font-size: 1.0625em;
+  }
+}
+/*
+*
+*  Sixteen-column grid active
+*  ----------------------------------------------------------------------------------------------------------------------
+*  Margin   | #  1     2     3     4     5     6     7     8     9     10    11    12    13    14    15    16  |   Margin
+*  5.55555% | %  6.25  12.5  18.75 25.0  31.25 37.5  43.75 50.0  56.25 62.5  68.75 75.0  81.25 87.5  93.75 100 | 5.55555%
+*	
+*
+*/
+/* @media screen and (min-width: 1872px) */
+@media screen and (min-width: 117em) {
+
+  header .wrapper {
+    width: 37.5%;
+  }
+  #twoway .wrapper {
+    width: 25%;
+  }
+
+}
+/* @media screen and (min-width: 2080px) */
+@media screen and (min-width: 130em) {
+  body {
+    /* Zoom baseline grid to 18/16 = 1.125 */
+  
+    font-size: 1.125em;
+    max-width: 160em;
+  }
+}

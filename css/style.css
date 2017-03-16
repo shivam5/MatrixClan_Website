@@ -1,0 +1,240 @@
+body {
+		background: #e3e2e2;
+	font-family: 'Carrois Gothic','Calibri';
+}
+
+
+body#about{
+	background: #808080;
+	font-family: 'Carrois Gothic','Calibri';
+}
+
+.cboth {
+	clear:both;
+}
+
+header {
+	width:100%;
+	background: url(../bg/subtle_carbon.png);
+}
+
+
+
+header h1{
+	color:#e3e3e3;
+	display: block;
+  font-family:'Carrois Gothic SC','helvetica';
+}
+
+header h1 span {
+	color:#23abf1;
+}
+
+ul#nav {
+	list-style: none;
+}
+
+
+
+
+ul#nav li a{
+  display:block;
+  color:white;
+  text-decoration: none;
+   transition: color 0.8s ;
+   -webkit-transition: color 0.8s ;
+   -moz-transition: color 0.8s ;
+   -o-transition: color 0.8s ;
+}
+
+ul#nav li a span {
+	color: #b8b8b8;
+	transition: color 0.8s ;
+   -webkit-transition: color 0.8s ;
+   -moz-transition: color 0.8s ;
+   -o-transition: color 0.8s ;
+}
+
+ul#nav li a:hover {
+  color:#23abf1;
+}
+
+ul#nav li a:hover span{
+  color:#fff;
+}
+
+
+ul#nav li a.active {
+  color:#57acff;	
+}
+
+ul#nav li a.active span{
+  color:#208df7;	
+}
+
+#tagline {
+	width:100%;
+	padding:10px 0 35px 0;
+	background: url(../bg/subtle_carbon.png);
+	text-align: center;
+}
+
+#tagline h1 {
+	color:#d8d8d8;
+	font-family: Titillium Web;
+	font-weight: bold;
+	text-shadow: 0px 3px 4px #666;
+	position:relative;
+}
+
+#tagline h2 {
+	font-family: Marcellus SC;
+	color:#b0b0b0;
+}
+
+#content, #medetails{
+	background:white;
+  	border-top:10px solid #23abf1;
+  	margin:0 auto;
+}
+
+ #aboutcontent {
+	background:black;
+  	border-top:10px solid #23abf1;
+  	margin:0 auto;
+  }
+
+  #aboutcontent p {
+  	color:white;
+  }
+  
+  #content article#twoway section.wrapper h3 {
+    font-family: Titillium Web;
+  }
+
+footer{
+	position: fixed;
+	width: 100%;
+  	color:#686868;
+  	bottom: 0;
+  	padding-top: 20px;
+  	box-shadow: 0 0 10px #141414;
+}
+
+footer section{
+	background: url(../bg/subtle_carbon.png);
+	width:100%;
+	font-family: "Century Gothic", "Trebuchet MS", "Arial";
+}
+
+footer#about section {
+	background: url(../bg/subtle_carbon.png);
+}
+
+
+#kuchbhi {
+	padding-bottom: 70px;
+}
+
+#dabba {
+	background:white;
+	position:relative;
+}
+
+
+
+form p, #dabba h2 {
+	font-family: Carrois Gothic SC;
+}
+
+
+form input[type="text"], form textarea {
+border: none;
+background-color: #e2e5e8;
+	transition: 0.8s ;
+   -webkit-transition: 0.8s ;
+   -moz-transition: 0.8s ;
+   -o-transition: 0.8s ;
+}
+
+form input[type="text"]:focus, form textarea:focus {
+background-color: #c5c8cb;
+outline:0;
+}
+
+form input[type="submit"]{
+border: none;
+outline: none;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+height: 35px;
+padding: 0 15px;
+font-size: 12px;
+cursor: pointer;
+color: white;
+background-color: #23abf1;
+border: 1px solid transparent;
+transition: 0.8s ;
+-webkit-transition: 0.8s ;
+-moz-transition: 0.8s ;
+-o-transition: 0.8s ;
+}
+
+form input[type="submit"]:hover{
+background-color: #4686BC;
+}
+
+.me p a{
+	padding:0 1%;
+}
+
+@font-face{
+	font-family: Circuit;
+	src: url('../fonts/CIRCUIT.TTF');
+}
+
+#medetails h1{
+	font-family: Circuit;
+}
+
+#medetails h2 {
+	font-family: Titillium Web;
+	background: #c4c2c2;
+	text-align: center;
+}
+
+  #medetails a {
+    text-decoration: none;
+    transition: all 0.8s ;
+   -webkit-transition: all 0.8s ;
+   -moz-transition: all 0.8s ;
+   -o-transition: all 0.8s ;
+   color: #23abf1;
+  }  
+
+  #medetails a:hover {
+    color: #4686bc;
+  }
+
+  #medetails img {
+  	width:100%;
+  }
+
+  #medetails table, #medetails table td, #medetails table th{
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  #medetails table {
+    width:100%;
+  }
+
+  #medetails table th {
+    font-family: Titillium Web;
+  }
+
+  #medetails span{
+       font-family: Titillium Web;
+       text-transform: uppercase;
+  }
